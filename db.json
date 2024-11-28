@@ -1,0 +1,19 @@
+{
+  "users": [
+    
+  ],
+  "phones": [
+    {
+      "id": "2d2c",
+      "brand": "Samsung",
+      "model": "s25",
+      "price": 1000
+    },
+    {
+      "id": "fdfc",
+      "brand": "Iphone",
+      "model": "17",
+      "price": 1000
+    }
+  ]
+}

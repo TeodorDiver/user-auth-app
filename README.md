@@ -1,24 +1,33 @@
-# user-auth-app
+# Приложение для регистрации и авторизации пользователей с управлением смартфонами
 
-## Project setup
-```
+Это приложение, разработанное с использованием Vue.js и JSON Server, позволяет пользователям регистрироваться и авторизовываться, а также управлять списком смартфонов. Пользователи могут добавлять новые смартфоны с валидацией на уже существующие модели.
+
+## Установка
+
+### 1. Клонирование репозитория
+
+Сначала клонируйте репозиторий на свой локальный компьютер:
+
+git clone https://github.com/TeodorDiver/user-auth-app.git
+
+cd user-auth-app
+
+### 2. Установка зависимостей
+Убедитесь, что у вас установлен Node.js и npm. Затем выполните команду для установки зависимостей:
+
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+### 3.Установка JSON Server
+Если у вас еще не установлен JSON Server, вы можете установить его глобально:
+
+npm install -g json-server
+
+### 4. Запуск JSON Server
+Запустите JSON Server с помощью следующей команды:
+
+json-server --watch db.json
+
+### 5. Запуск приложения
+Теперь вы можете запустить приложение Vue.js. Откройте новый терминал:
+
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
