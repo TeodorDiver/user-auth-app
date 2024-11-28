@@ -16,7 +16,7 @@
   
   <script>
   export default {
-    name: 'UserLogin', // Измените имя компонента
+    name: 'UserLogin', 
     data() {
       return {
         username: '',
